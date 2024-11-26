@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #af711f;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #ce8525;
+    
+    
+}
+nav a{
+    background-color: #ce8525;
+    border-radius: 30px;
+    border: 10px solid;
+    border-color: #ce8525;
+    
+    
+}
+nav :hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+main {
+    padding: 20px;
+}
+
+.boasvindas{
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.contato{
+    margin: 30px
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    margin-right: 20px;
+    max-width: 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #af711f;
+    color: white;
+    border: none;
+    cursor: pointer;
+   border-radius: 30px;
+   width:80px;
+}
+
+form button:hover {
+    background-color: #86581c;
+}
+
+footer {
+    background-color: #af711f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1, h2{
+    font-size: 50px;
+    margin: 0px;
+    font-family:"Reddit Sans Condensed", Arial, Helvetica, sans-serif
+}
+
+.telainicial {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 0px;
+    padding: 0;
+    font-size: 80px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #e9ae0e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content img {
+        margin: 0 auto 20px;
+        width: 500px;
+    }
+
+ 
+}
